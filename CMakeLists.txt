@@ -45,7 +45,7 @@ install(DIRECTORY include/${PROJECT_NAME}/
   DESTINATION include/${PROJECT_NAME}
 )
 
-install(DIRECTORY launch 
+install(DIRECTORY launch include
   DESTINATION share/${PROJECT_NAME}
 )
 
